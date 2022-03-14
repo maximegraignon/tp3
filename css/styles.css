@@ -41,9 +41,7 @@
 }
 
 
-/**************************
-Arrière Plan
-*************************/
+/*Arrière Plan*/
 
 .coupon_participation_formulaire, .question_du_jour {
    background-color: lightgrey;
@@ -52,9 +50,7 @@ Arrière Plan
 }
 
 
-/**************************
-Banderole
-*************************/
+/*Banderole*/
 
 h1{
    width: 100%;
