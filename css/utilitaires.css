@@ -53,6 +53,11 @@ img{
     width: auto;
 }
 
+.sansPuces{
+    padding-left: 0;
+    list-style: none;
+}
+
 /*** validations ***/
 .icone{
     display: inline-block;

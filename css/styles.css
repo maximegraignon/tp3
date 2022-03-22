@@ -19,11 +19,11 @@
 
 /* Normalize
    ========================================================================== */
-@import url(_normalize.css);
+@import url(normalize.css);
 
 /* Utilitaires
    ========================================================================== */
- @import url(_utilitaires.css);
+ @import url(utilitaires.css);
 
 /* Charte typographique
    ========================================================================== */
@@ -31,7 +31,7 @@
 
 /* Grille
    ========================================================================== */
- @import url(_grille.css);
+ @import url(grille.css);
 
 /* Mise en page
    ========================================================================== */
@@ -103,8 +103,8 @@ input[type=radio]+label {
    border:2px solid #068221;
 }
 
-/**** Screen Reader ***/
-.screen-reader-only, .visuallyhidden {
+/**** Screen Reader ***/          /* Inutile car tu importes déjà les utilitaires */
+/*.screen-reader-only, .visuallyhidden {
    border: 0;
    clip: rect(0 0 0 0);
    height: 1px;
@@ -113,7 +113,7 @@ input[type=radio]+label {
    padding: 0;
    position: absolute;
    width: 1px;
-   }
+   }*/
 
 /*** Bouton de soumission ***/
 button{
